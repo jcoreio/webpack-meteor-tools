@@ -1,4 +1,4 @@
-Skeleton projects for Meteor/Webpack are great, but keeping up to improvements and bugfixes in them is not very
+Skeleton projects for Meteor/Webpack are great, but keeping up with improvements and bugfixes in them is not very
 convenient.  This package encapsulates the webpack-to-meteor fundamentals so that skeleton projects can be
 essentially just customization.
 
