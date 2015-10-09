@@ -24,6 +24,10 @@ Create this plugin in your webpack config:
 }
 ```
 
+Right now all assets (or wrappers to load them, depending on the target and mode) will be copied to
+`<meteor dir>/<target>/<publicPath>`, where `publicPath` comes from webpack config (`http://<host>:<port>/`
+will be stripped from it).  I will have to make changes to support code splitting in the future.
+
 ### runWebpackConfigs(configs, callback)
 
 ```js
