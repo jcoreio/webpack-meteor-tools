@@ -1,6 +1,5 @@
 Skeleton projects for Meteor/Webpack are great, but keeping up with improvements and bugfixes in them is not very
-convenient.  This package encapsulates the webpack-to-meteor fundamentals so that skeleton projects can be
-essentially just customization.
+convenient once you've customized the skeleton for your own project.  This package encapsulates the webpack-to-meteor fundamentals so that they can be updated separately from your customization.
 
 ## Usage
 
