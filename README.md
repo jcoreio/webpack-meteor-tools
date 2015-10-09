@@ -17,11 +17,11 @@ Create this plugin in your webpack config:
     ...
     new RunInMeteorPlugin({
       meteor: '/absolute/path/to/meteor/dir',
-      key: 'any key',   // assets previously created in the meteor dir by a RunInMeteorPlugin
-                        // with the same key will be deleted.  This cleans out leftover assets
-                        // from prod mode when launching dev mode, or vice versa.
-      target: 'client', // or 'server'
-      mode: 'dev'       // or 'prod'
+      key: 'any key',     // assets previously created in the meteor dir by a RunInMeteorPlugin
+                          // with the same key will be deleted.  This cleans out leftover assets
+                          // from prod mode when launching dev mode, or vice versa.
+      target: 'client',   // or 'server'
+      mode: 'development' // or 'production'
     }),
   ]
 }
