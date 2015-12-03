@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
+    "prepublish": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
