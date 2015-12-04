@@ -27,7 +27,7 @@ Create this plugin in your webpack config:
 }
 ```
 
-### runWebpackConfigs(configs, callback)
+### runWebpackConfigs(configs, options, callback)
 
 ```js
 var runWebpackConfigs = require('webpack-meteor-tools/lib/RunInMeteorPlugin');
@@ -37,6 +37,9 @@ Runs/starts webpack/webpack-dev-server for multiple webpack configs sequentially
 
 #### Arguments:
 * `configs`: an array of webpack configs
+* `options`: the options:
+  * `options.webpack`: required.  an instance of `require('webpack')`.
+  * `options.webpackDevServer`: required if running client development mode.  an instance of `require('webpack-dev-server')`.
 * `callback`: node-style callback to call when the webpack/webpack-dev-server instances have
               finished starting up.
 
